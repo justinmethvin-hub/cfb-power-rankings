@@ -1,0 +1,6 @@
+# from repo root (locally), if you mistakenly have a nested folder:
+mv cfb-power-rankings/* .
+rm -rf cfb-power-rankings
+git add -A
+git commit -m "Flatten repo structure (move app to root)"
+git push
