@@ -1,0 +1,8 @@
+# unzip first, then:
+cd cfb-power-rankings
+git init
+git add .
+git commit -m "Initial commit - Streamlit-ready"
+git branch -M main
+git remote add origin https://github.com/justinmethvin-hub/cfb-power-rankings.git
+git push -u origin main
