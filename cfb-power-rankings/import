@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial commit - CFB Power Rankings"
+git branch -M main
+git remote add origin https://github.com/justinmethvin-hub/cfb-power-rankings.git
+git push -u origin main
